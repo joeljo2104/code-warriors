@@ -71,11 +71,13 @@ if(isset($_POST['reg_user'])){
 
        $_SESSION['username'] = $username;
        $_SESSION['success'] = "you are now logged in";
-       $_SESSION['resullt'] = $result;
+       $_SESSION['result'] = $result;
 
        header('location: index.php');
 
     }
-
+    // login user
+    
 
 }
+?>
